@@ -1,0 +1,33 @@
+#contact {
+    font-family: sans-serif;
+    float: right;
+}
+
+#title {
+    font-family: sans-serif;
+}
+
+#project-grid {
+    font-family: sans-serif;
+    clear: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+}
+
+.project {}
+
+.project-title {}
+
+.project-preview {
+    width: 400px;
+    height: 400px;
+}
+
+#about {
+    width: calc( 25% - 2em);
+    font-family: serif;
+    float: right;
+    background-color: rgb(216, 215, 215);
+    padding: 1em;
+}
